@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      form {
+        display: inline-block;
+        border: 1px solid #ccc;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #ccc;
+        width: 50%;
+    }
+      input[type="email"],
+      input[type="password"],
+      input[type="submit"] {
+        display: block;
+        margin: 15px auto;
+        width: 60%;
+        padding: 15px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+      }
+      input[type="submit"] {
+        background-color: #3279cf;
+        color: white;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Deakin Chess Club</h1>
+    <h2> Introdutory Message</h2>
+    <p>Welcome to the website of the Deakin Chess Club! This side allows exixting members to login and view their <br>
+        match results. Please login below:
+    </p>
+    <div>
+      <h2>Login Section</h2>
+      <form>
+        <label for="email">Username:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </body>
+</html>

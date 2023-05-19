@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      body {
+        margin: 5%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Login Successful </h1>
+    <p>Thank you <%= data[0].fname %> (Username : '<%= data[0].username %>') your login has been Successful     </p>
+    <p>Our record show have completed a total of 50 chess matches.</p>
+    <p>Your Match Statistics are :</p>
+        <ul>
+            <li>Win : <%= data[0].won %></li>
+            <li>Losses : <%= data[0].lost %></li>
+            <li>Drawn: <%= data[0].drawn %></li>
+        </ul>
+        <p>Have a great day!</p>
+  </body>
+</html>
